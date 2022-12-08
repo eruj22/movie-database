@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+  src: url("./Raleway.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Playfair";
+  font-style: normal;
+  font-weight: medium;
+  font-display: fallback;
+  src: url("./PlayfairDisplay.woff2") format("woff2");
+}
