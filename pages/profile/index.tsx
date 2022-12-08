@@ -35,7 +35,7 @@ const Profile = (props: ProfileProps) => {
     }
 
     const urls = userData[0].watchlist?.map(
-      (movieId) => `${process.env.NEXT_PUBLIC_BASE_URL}/api/movies/${movieId}`
+      (movieId) => `/api/movies/${movieId}`
     );
 
     if (urls && urls.length > 0) {
