@@ -24,7 +24,7 @@ import {
 import Styled from "../../styles/pages/SingleMoviePage.styled";
 
 const postToWatchlist = async (sessionData: SessionData, id: string) => {
-  return fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/user`, {
+  return fetch('/api/user', {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
